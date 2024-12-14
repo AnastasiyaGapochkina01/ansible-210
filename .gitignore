@@ -2,3 +2,4 @@
 *swp
 *private.auto.tfvars
 *vars.auto.tfvars
+*.terraform/*
