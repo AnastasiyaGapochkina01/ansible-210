@@ -1,0 +1,9 @@
+#cloud-config
+users:
+  - name: anestesia
+    groups: sudo
+    shell: /bin/bash
+    sudo: 'ALL=(ALL) NOPASSWD:ALL'
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGfmKEM+o9BgZYpD2Z/mkED+XsWjq9keFcOPQelY8Mek anestesia@control-plain
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA2JXbjp9HtW13r224ZpS6aspQCVxvgMTAnhhiy7hL2c agapochkina@agapochkina
